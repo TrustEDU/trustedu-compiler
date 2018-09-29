@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustEDU.Compiler.ASM", "TrustEDU.Compiler.ASM\TrustEDU.Compiler.ASM.csproj", "{5D1F9A65-E6D5-46B1-9A74-1BAFD7977C44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustEDU.Compiler.Java", "TrustEDU.Compiler.Java\TrustEDU.Compiler.Java.csproj", "{47904CE6-613E-439F-968E-9DC1C56893DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustEDU.Compiler.Dotnet", "TrustEDU.Compiler.Dotnet\TrustEDU.Compiler.Dotnet.csproj", "{3C719C03-FEA3-421D-878C-ECE97814A233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D1F9A65-E6D5-46B1-9A74-1BAFD7977C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D1F9A65-E6D5-46B1-9A74-1BAFD7977C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D1F9A65-E6D5-46B1-9A74-1BAFD7977C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D1F9A65-E6D5-46B1-9A74-1BAFD7977C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47904CE6-613E-439F-968E-9DC1C56893DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47904CE6-613E-439F-968E-9DC1C56893DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47904CE6-613E-439F-968E-9DC1C56893DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47904CE6-613E-439F-968E-9DC1C56893DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C719C03-FEA3-421D-878C-ECE97814A233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C719C03-FEA3-421D-878C-ECE97814A233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C719C03-FEA3-421D-878C-ECE97814A233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C719C03-FEA3-421D-878C-ECE97814A233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
