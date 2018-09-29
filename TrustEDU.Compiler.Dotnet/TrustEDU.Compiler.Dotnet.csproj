@@ -20,5 +20,6 @@
   <ItemGroup>
     <PackageReference Include="Mono.Cecil" Version="0.10.1" />
     <PackageReference Include="TrustEDU.VM" Version="0.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.1.1" />
   </ItemGroup>
 </Project>
