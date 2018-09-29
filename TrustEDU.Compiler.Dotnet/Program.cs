@@ -6,7 +6,7 @@ namespace TrustEDU.Compiler.Dotnet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("TrustEDU.Compiler.Dotnet");
         }
     }
 }

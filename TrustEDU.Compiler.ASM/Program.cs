@@ -1,12 +1,20 @@
-﻿using System;
+﻿using System.IO;
+using TrustEDU.Compiler.ASM.Base;
 
 namespace TrustEDU.Compiler.ASM
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            if (args.Length == 0) return;
+            if (!File.Exists(args[0])) return;
+            var lines = File.ReadAllLines(args[0]);
+            var semantemes = Semanteme.ProcessLines(lines);
+            var table = new AddressTable(semantemes);
+            var script = table.ToScript();
+            var outputPath = args.Length >= 2 ? args[1] : Path.ChangeExtension(args[0], "avm");
+            File.WriteAllBytes(outputPath, script);
         }
     }
 }

@@ -5,4 +5,13 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SharpZipLib.NETStandard" Version="1.0.7" />
+    <PackageReference Include="TrustEDU.VM" Version="0.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Base\" />
+    <Folder Include="Base\Java.Cecil\" />
+    <Folder Include="Base\Java.Cecil\Loader\" />
+  </ItemGroup>
 </Project>
