@@ -1,0 +1,14 @@
+language: csharp
+
+os:
+ - linux
+ - osx
+
+dist: trusty
+osx_image: xcode9.1
+
+mono: none
+dotnet: 2.1.202
+
+script:
+ - dotnet restore
